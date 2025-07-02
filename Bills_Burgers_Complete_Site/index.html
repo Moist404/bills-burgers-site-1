@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill's Burgers</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      cursor: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/Blank_cursor.png'), auto;
+    }
+    img {
+      image-rendering: pixelated;
+    }
+    #secret-zone {
+      position: absolute;
+      top: 85%;
+      left: 2%;
+      width: 100px;
+      height: 100px;
+      opacity: 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <img src="burger.png" alt="burger" width="120" height="120">
+  <a href="secret.html" id="secret-zone"></a>
+</body>
+</html>
